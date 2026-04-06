@@ -1,0 +1,107 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.container{
+    background-color: aquamarine;
+    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 10px 25px;
+    margin-top: 625px;
+    margin-bottom: 10px;
+}
+.container:hover{
+transform:translateY(-5px);
+}
+h2{
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform:capitalize;
+}
+input{
+    width: 92%;
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size:14px;
+}
+input:focus{
+border-color:#667eea;
+outline:none;
+box-shadow:0 0 5px rgba(102,126,234,.5);
+}
+.row{
+    display: flex;
+    gap: 10px;
+}
+.row input{
+    width: 100%;
+}
+.card-icon{
+    text-align: right;
+}
+.card-icon img{
+    width: 40px;
+    margin-top: 5px;
+}
+.order{
+    background-color: rgb(200, 198, 195);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top:12px;
+    text-align:left;
+    font-size:14px;
+}
+.order b{
+color:#333;
+}
+button{
+    width: 100%;
+    background-color: rgb(58, 58, 250);
+    color: aliceblue;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: rgb(19, 19, 100);
+    color: white;
+}
+.qr{
+    text-align: center;
+    margin-top: 15px;
+}
+.qr img{
+    width: 140px;
+}
+.upi{
+    margin-top: 10px;
+}
+p{
+margin:5px 0;
+color:#555;
+}
+.popup{
+    display: none;
+    position: fixed;
+     top: 50%; 
+    /* lift: 50; */
+    transform: translate(-50,-50);
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px;
+    text-align: center;
+}
+.popup button{
+    background-color: aquamarine;
+}

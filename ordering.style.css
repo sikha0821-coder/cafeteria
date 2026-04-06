@@ -1,0 +1,93 @@
+/* body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+input{
+    width: 400px;
+    padding: 8px;
+    margin: 8px;
+}
+button{
+    background-color: rgb(223, 238, 14);
+    color: black;
+    border: none;
+    padding: 10px;
+    width: 400px;
+}
+.container{
+    background-color: aquamarine;
+    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 10px 25px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container:hover{
+transform:translateY(-5px);
+} */
+
+body{
+font-family:Arial;
+background:linear-gradient(135deg,#281fdc,#88dd20);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
+
+.container{
+background:white;
+padding:30px;
+border-radius:12px;
+width:300px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+h2{
+margin-bottom:20px;
+color:#333;
+}
+
+.food-card{
+background:#f8f8f8;
+padding:15px;
+border-radius:10px;
+}
+
+h3{
+color:#444;
+}
+
+input{
+width:80%;
+padding:8px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:5px;
+text-align:center;
+font-size:16px;
+}
+
+button{
+background:#ff6b6b;
+color:white;
+border:none;
+padding:10px;
+width:85%;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+background:#ff4757;
+transform:scale(1.05);
+}
